@@ -69,7 +69,7 @@ function howToBild(id, todo, active, trash) {
     del.className = "del";
     del.innerHTML = "✖";
     done.className = "done";
-    done.innerHTML = "✔";
+    done.innerHTML = "✓";
     div.id = id;
 
     div.prepend(text);
