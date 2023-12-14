@@ -67,7 +67,7 @@ function howToBild(id, todo, active, trash) {
     div.className = "block";
     btn.className = "btn";
     del.className = "del";
-    del.innerHTML = "✖";
+    del.innerHTML = "✕";
     done.className = "done";
     done.innerHTML = "✓";
     div.id = id;
