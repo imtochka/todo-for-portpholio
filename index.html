@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="
+https://cdn.jsdelivr.net/npm/a-color-picker@1.2.1/dist/acolorpicker.min.js
+"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>todo</title>
+  </head>
+
+  <body class="body-background">
+    <div class="background">
+      <div class="countainer">
+        <div class="main_block">
+          <p class="logo_name">To Do list</p>
+          <div class="input_position">
+            <input class="input" type="text" />
+            <button id="done" class="add_button">Добавить</button>
+          </div>
+        </div>
+        <div class="fixed-block">
+          <img src="./svg/palette-icon.svg" alt="" class="palette-svg" />
+          <div id="save-color" class="save-color hidden">
+            <div class="save-color1"></div>
+            <div class="save-color2"></div>
+            <div class="save-color3"></div>
+            <!-- <div class="save-color4"></div> -->
+          </div>
+
+          <img src="./svg/trash-icon.svg" alt="" class="trash-svg" />
+        </div>
+        <span id="main_block"></span>
+      </div>
+    </div>
+    <div class="countainer-color">
+      <div id="color" class="hidden color">
+        <div class="color-block-position">
+          <div class="style-one"></div>
+          <div class="style-two"></div>
+          <div class="style-three"></div>
+          <div class="color-block">
+            <div class="color-one"></div>
+            <div class="picker" acp-color="#EFE9E7"></div>
+            <div class="color-two"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="trash" class="hidden">
+      <div class="countainerFixed">
+        <div class="main_trash">
+          <div>
+            <div class="trash-esc">
+              <p id="trash-esc">✖</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./script.js" defer></script>
+</html>
