@@ -145,7 +145,7 @@ function howToBild(id, todo, active, trash) {
     div.className = "trash-block";
     btn.className = "trash-btn";
     del.className = "trash-del";
-    del.innerHTML = "✖";
+    del.innerHTML = "✕";
     back.className = "trash-back";
     back.innerHTML = "↻";
 
